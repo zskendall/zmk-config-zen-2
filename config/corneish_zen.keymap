@@ -48,9 +48,9 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
                 &kp TAB      &kp Q  &kp W  &kp E  &kp R  &kp T            &kp Y  &kp U  &kp I    &kp O   &kp P    &kp BKSP
-                &hm LALT ESC &kp A  &kp S  &kp D  &kp F  &kp G            &kp H  &kp J  &kp K    &kp L   &kp SCLN &hm RALT QUOT
+                &hm LCTL ESC &kp A  &kp S  &kp D  &kp F  &kp G            &kp H  &kp J  &kp K    &kp L   &kp SCLN &hm RCTL QUOT
                 &kp LSFT     &kp Z  &kp X  &kp C  &kp V  &kp B            &kp N  &kp M  &kp CMMA &kp DOT &kp FSLH &kp MINUS
-                           &mt LSFT LPRN &nt LCTL SPC &lt NUM LBKT    &lt NAV RBKT &nt LGUI RET &mt RSFT RPRN
+                           &mt LSFT LPRN &nt LALT SPC &lt NUM LBKT    &lt NAV RBKT &nt LGUI RET &mt RSFT RPRN
                         >;
                 };
                 num_layer {
