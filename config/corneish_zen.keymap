@@ -40,7 +40,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-                        label = "QWERTY";
+                        label = "ALPHA";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
 // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -54,7 +54,7 @@
                         >;
                 };
                 num_layer {
-                        label = "NUMBER";
+                        label = "NUM";
 // -----------------------------------------------------------------------------------------
 // | //// |     |     |  E  |  `  |     |   |  *  |  7  |  8  |  9  |  -  | //// |
 // | //// | /// |     | /// | /// |  \  |   |  /  |  4  |  5  |  6  |  +  | //// |
@@ -69,7 +69,7 @@
                 };
 
                 nav_layer {
-                        label = "NAVIGATION";
+                        label = "NAV";
 // -----------------------------------------------------------------------------------------
 // |BT_CLR| BT0 | BT1 | BT2 | BT3 | BT4 |   |  F1 |  F2 |  F6 |     |     | //// |
 // | RESET| HOME| PGUP| PGDN| END |     |   |  ←  |  ↓  |  ↑  |  →  | VOL+|BT_NXT|
@@ -84,6 +84,7 @@
                 };
 
                 art_layer {
+                    label = "ART";
                     // Condensed layout with common Krita functions collapsed onto left half of
                     // keyboard. Only fall through mod functions on right half.
                     // ┌──────┬──────┬──────┬──────┬──────┬──────┐
