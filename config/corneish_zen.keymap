@@ -76,8 +76,8 @@
 //                    | /// | /// | ART |   | /// | /// | /// |
                         bindings = <
                 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &kp F1  &kp F2  &kp F6  &none       &none       &trans
-                &trans      &kp HOME      &kp PGUP      &kp PGDN      &kp END       &none          &kp LARW   &kp DARW   &kp UARW   &kp RARW       &cp M_VOLU  &bt BT_NXT
-                &reset      &cp M_PREV    &cp M_PLAY    &cp M_NEXT    &cp M_STOP    &none          &none   &none   &none   &cp M_MUTE  &cp M_VOLD  &kp RALT
+                &trans      &kp HOME      &kp PGUP      &kp PGDN      &kp END       &none          &kp LARW   &kp DARW   &kp UARW   &kp RARW       &kp C_VOL_UP  &bt BT_NXT
+                &sys_reset      &kp C_PREV    &kp C_PP    &kp C_NEXT    &kp C_STOP    &none          &none   &none   &none   &kp C_MUTE  &kp C_VOL_DN  &kp RALT
                                           &trans  &trans  &tog ART     &trans  &trans  &trans
                         >;
                 };
